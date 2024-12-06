@@ -1,8 +1,8 @@
 // data/products.js
 
 const products = [
-    { id: 1, image: "" , name: "Pizza Margherita", price: 25.00, category: "Food",  rating: "★★★★★"},
-    { id: 2, image: "../uploads/coxinha.jpg'", name: "Coxinha", price: 5.00, category: "Food",  rating: "★★★★"},
+    { id: 1, image: `${process.env.API}/uploads/pizza.jpg` , name: "Pizza Margherita", price: 25.00, category: "Food",  rating: "★★★★★"},
+    { id: 2, image: `${process.env.API}/uploads/coxinha.jpg`, name: "Coxinha", price: 5.00, category: "Food",  rating: "★★★★"},
     { id: 3, image: "", name: "Batata Frita", price: 5.00, category: "Snack", rating: "★★★★★" },
 
     { id: 4, image: "", name: "Suco de Laranja", price: 11.00, category: "Drinks", rating: "★★★★★"},
